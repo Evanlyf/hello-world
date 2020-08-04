@@ -1,6 +1,10 @@
 # hello-world
-入门尝试
-
-Hello,everyone!
-Be brave!
-Be happy!
+def cmul(c):
+    d = c.split(",")
+    for i in d:
+        global result
+        result = result*int(i)
+        
+result = 1
+cmul(input())
+print(result)
